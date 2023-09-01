@@ -1,0 +1,80 @@
+@keyframes shake-shake {
+  0% {
+    transform: translateX(-3px);
+ }
+  20% {
+    transform: translateX(3px);
+ }
+  40% {
+    transform: translateX(-3px);
+ }
+  60% {
+    transform: translateX(3px);
+ }
+  80% {
+    transform: translateX(-3px);
+ }
+  100% {
+    transform: translateX(0px);
+ }
+}
+
+.session {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  margin: auto auto;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, .12);
+}
+
+.input-not-valid{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: crimson;
+  gap: 15px;
+}
+
+.input-not-valid .circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: crimson;
+  color: white;
+}
+
+.input-not-valid .circle span{
+  font-size: 16px;
+}
+
+.input-group{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.is-invalid input {
+  border-bottom: 1px solid crimson;
+}
+
+.is-invalid input:focus{
+  border-bottom: 1px solid crimson;
+}
+
+.is-invalid input::placeholder {
+  color: crimson;
+}
+
+.is-invalid{
+  color: crimson;
+}
+
+.is-invalid input + label + .icon span{
+  color: crimson
+}

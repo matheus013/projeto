@@ -1,0 +1,27 @@
+.header{
+  position: fixed;
+  top: 0;
+  left: 282px;
+  background-color: white;
+  width: calc(100% - 282px);
+  border: 0;
+  z-index: 1;
+  padding: 12px 28px;
+  gap: 10px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.button-group{
+  display: flex;
+  gap: 7px;
+}

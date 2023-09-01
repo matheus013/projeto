@@ -1,0 +1,26 @@
+.m-card-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.marketing-card{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 2px solid #ddd;
+  padding: 35px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.marketing-card:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media (max-width: 900px) {
+  .m-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

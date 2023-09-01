@@ -1,0 +1,30 @@
+.form-container{
+  position: absolute;
+  left: 0;
+  padding: 1%;
+}
+
+.form__header{ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-container form{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 20px 30px;
+}
+
+.form__group{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.group__container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
